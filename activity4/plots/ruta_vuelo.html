@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ad89143979f570f6fb303a08955abb0f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ad89143979f570f6fb303a08955abb0f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ad89143979f570f6fb303a08955abb0f = L.map(
+                "map_ad89143979f570f6fb303a08955abb0f",
+                {
+                    center: [20.9935, -101.481003],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d0e5a1659b4ab5c57bdcd97ba765da65 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d0e5a1659b4ab5c57bdcd97ba765da65.addTo(map_ad89143979f570f6fb303a08955abb0f);
+        
+    
+            var marker_b10069fadd6599620e9b7fd44f1786cd = L.marker(
+                [20.9935, -101.481003],
+                {
+}
+            ).addTo(map_ad89143979f570f6fb303a08955abb0f);
+        
+    
+            var icon_200db7bdd21fae9bd3fcbff9d02b19ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33923bc9b1700aeb0314d418e0b62c30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e09c8b556cabb441e48c2699c53fc748 = $(`<div id="html_e09c8b556cabb441e48c2699c53fc748" style="width: 100.0%; height: 100.0%;"><b>Del Bajío International Airport</b><br>IATA: BJX</div>`)[0];
+                popup_33923bc9b1700aeb0314d418e0b62c30.setContent(html_e09c8b556cabb441e48c2699c53fc748);
+            
+        
+
+        marker_b10069fadd6599620e9b7fd44f1786cd.bindPopup(popup_33923bc9b1700aeb0314d418e0b62c30)
+        ;
+
+        
+    
+    
+            marker_b10069fadd6599620e9b7fd44f1786cd.bindTooltip(
+                `<div>
+                     BJX
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b10069fadd6599620e9b7fd44f1786cd.setIcon(icon_200db7bdd21fae9bd3fcbff9d02b19ad);
+            
+    
+            var marker_839a7329816715fc3ab0f8c77d62ba40 = L.marker(
+                [32.541099548339844, -116.97000122070312],
+                {
+}
+            ).addTo(map_ad89143979f570f6fb303a08955abb0f);
+        
+    
+            var icon_d085e8c335e48cd0d1dbc75d1e29a176 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb6e656b15bd1637c621547f2272c9eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc06a083e80d5a6fdd3f473bc85f57c2 = $(`<div id="html_dc06a083e80d5a6fdd3f473bc85f57c2" style="width: 100.0%; height: 100.0%;"><b>General Abelardo L. Rodríguez International Airport</b><br>IATA: TIJ</div>`)[0];
+                popup_cb6e656b15bd1637c621547f2272c9eb.setContent(html_dc06a083e80d5a6fdd3f473bc85f57c2);
+            
+        
+
+        marker_839a7329816715fc3ab0f8c77d62ba40.bindPopup(popup_cb6e656b15bd1637c621547f2272c9eb)
+        ;
+
+        
+    
+    
+            marker_839a7329816715fc3ab0f8c77d62ba40.bindTooltip(
+                `<div>
+                     TIJ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_839a7329816715fc3ab0f8c77d62ba40.setIcon(icon_d085e8c335e48cd0d1dbc75d1e29a176);
+            
+    
+            var marker_04b24a4366ccd1ed5feb7f5419b22f36 = L.marker(
+                [35.7647018433, 140.386001587],
+                {
+}
+            ).addTo(map_ad89143979f570f6fb303a08955abb0f);
+        
+    
+            var icon_3c48e9eb5423921d958c9889d6993af2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e0112b1583bc910d703d3f71bbd7c2dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89422799e0560be87017db5322abf0a0 = $(`<div id="html_89422799e0560be87017db5322abf0a0" style="width: 100.0%; height: 100.0%;"><b>Narita International Airport</b><br>IATA: NRT</div>`)[0];
+                popup_e0112b1583bc910d703d3f71bbd7c2dd.setContent(html_89422799e0560be87017db5322abf0a0);
+            
+        
+
+        marker_04b24a4366ccd1ed5feb7f5419b22f36.bindPopup(popup_e0112b1583bc910d703d3f71bbd7c2dd)
+        ;
+
+        
+    
+    
+            marker_04b24a4366ccd1ed5feb7f5419b22f36.bindTooltip(
+                `<div>
+                     NRT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_04b24a4366ccd1ed5feb7f5419b22f36.setIcon(icon_3c48e9eb5423921d958c9889d6993af2);
+            
+    
+            var poly_line_c3068429cebee2aeeee57f48522e5055 = L.polyline(
+                [[20.9935, -101.481003], [32.541099548339844, -116.97000122070312], [35.7647018433, 140.386001587]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_ad89143979f570f6fb303a08955abb0f);
+        
+    
+            poly_line_c3068429cebee2aeeee57f48522e5055.bindTooltip(
+                `<div>
+                     Ruta de vuelo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
