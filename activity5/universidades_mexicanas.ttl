@@ -1,0 +1,39 @@
+@prefix ex: <http://ejemplo.org/edu#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:IPN a ex:Universidad ;
+    ex:es_publica true ;
+    ex:fundada_en 1936 ;
+    ex:numero_alumnos 140806 ;
+    ex:ubicada_en ex:CDMX .
+
+ex:Tec_Monterrey a ex:Universidad ;
+    ex:es_publica false ;
+    ex:fundada_en 1943 ;
+    ex:numero_alumnos 62168 ;
+    ex:ubicada_en ex:Monterrey .
+
+ex:UAM a ex:Universidad ;
+    ex:es_publica true ;
+    ex:fundada_en 1974 ;
+    ex:numero_alumnos 46512 ;
+    ex:ubicada_en ex:CDMX .
+
+ex:UG a ex:Universidad ;
+    ex:es_publica true ;
+    ex:fundada_en 1732 ;
+    ex:numero_alumnos 30855 ;
+    ex:ubicada_en ex:Guanajuato .
+
+ex:UNAM a ex:Universidad ;
+    ex:es_publica true ;
+    ex:fundada_en 1910 ;
+    ex:numero_alumnos 257747 ;
+    ex:ubicada_en ex:CDMX .
+
+ex:Guanajuato a ex:Ciudad .
+
+ex:Monterrey a ex:Ciudad .
+
+ex:CDMX a ex:Ciudad .
+
